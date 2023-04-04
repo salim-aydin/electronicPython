@@ -16,3 +16,17 @@ imaginary_part = magnitude * math.sin(phase_angle_radians)
 # Print the rectangular form
 print("Rectangular form: {:.2f} + {:.2f}j".format(real_part, imaginary_part))
 
+
+
+
+
+
+# İki kompleks sayı tanımlama
+z1 = 3 + 2j
+z2 = -1 + 5j
+
+# İki kompleks sayıyı toplama
+z_sum = z1 + z2
+
+# Toplamı ekrana yazdırma
+print("Toplam: ", z_sum)
